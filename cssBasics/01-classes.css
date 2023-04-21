@@ -1,0 +1,26 @@
+body {
+    background-color: yellow;
+}
+
+/* This overrides the above styling */
+body {
+    background-color: limegreen;
+}
+
+.css-class {
+    background-color: #af2121;
+    color: white;
+}
+
+.css-class p {
+    color: lightgoldenrodyellow;
+    font-size: 16px;
+}
+
+.css-class h1 {
+    font-size: 18px;
+}
+
+.css-class li {
+    color: lightskyblue;
+}

@@ -1,0 +1,44 @@
+.title {
+    /* Aligns all content to the center of the target element */
+    text-align: center;
+}
+
+.title img {
+    margin-right: 36px;
+}
+
+.container {
+    border: solid 2px blue;
+
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+
+    /* This is shorthand for the above
+    margin: 50px 250px 200px 200px; */
+
+    /* top right bottom left */
+    padding: 20px 20px 20px 40px;
+}
+
+p {
+    height: 40px;
+    background-color: lightskyblue;
+    color: navy;
+    border-width: 5px;
+    border-style: solid;
+    border-color: pink;
+    /* border: 5px solid pink; */
+}
+
+#margin-experiment-1 {
+    border-style: dotted;
+}
+#margin-experiment-2 {
+    border-width: 12px;
+}
+
+#margin-experiment-1, #margin-experiment-2 {
+    border-color: darkkhaki;
+}
